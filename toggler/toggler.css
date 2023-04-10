@@ -1,0 +1,36 @@
+
+
+#app{
+    width: 60px;
+    height: 20px;
+    border-radius: 18px;
+    margin: 50px auto ;
+    border: 1.5px solid black;
+    
+}
+
+#indicator{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+
+#indicator.t-dark{
+ transform: translateX(40px);
+ background-color: rgb(19, 205, 127);
+ 
+}
+
+
+
+#app.app-dark {
+    border: 1.5px solid rgb(147, 225, 20);
+    background-color: rgb(23, 73, 209);
+}
+
+body.body-dark{
+    background-color: rgb(208, 20, 20);
+}
+

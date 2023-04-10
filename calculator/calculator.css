@@ -1,0 +1,108 @@
+
+body{
+    width: 30%;
+    height: 70%;
+    margin: 50px auto;
+    border: 2px solid black;
+    min-width: 300px;
+    border-radius: 5px;
+}
+
+#cal div{
+ background-color: rgb(198, 221, 221);
+}
+
+#name{
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+
+
+#display{
+    width: 100%;
+    height: 4rem;
+    border-bottom: 2px solid black;
+    background-color: aliceblue;
+}
+
+
+#ac button{
+    margin: 4px;
+    width: 20%;
+    height: 2rem;
+    background-color: rgb(154, 177, 154);
+    color: rgb(19, 35, 210);
+    border: 2px solid black;
+    border-radius: 18px;
+    
+    
+}
+
+#seven button{
+    margin: 4px;
+    width: 20%;
+    height: 2rem;
+    background-color: rgb(154, 177, 154);
+    color: rgb(19, 35, 210);
+    border: 2px solid black;
+    border-radius: 18px;
+
+}
+
+#four button{
+    margin: 4px;
+    width: 20%;
+    height: 2rem;
+    background-color: rgb(154, 177, 154);
+    color: rgb(19, 35, 210);
+    border: 2px solid black;
+    border-radius: 18px;
+
+}
+
+#one button{
+    margin: 4px;
+    width: 20%;
+    height: 2rem;
+    background-color: rgb(154, 177, 154);
+    color: rgb(19, 35, 210);
+    border: 2px solid black;
+    border-radius: 18px;
+
+}
+
+#zero button{
+    margin: 4px;
+    width: 20%;
+    height: 2rem;
+    background-color: rgb(154, 177, 154);
+    color: rgb(19, 35, 210);
+    border: 2px solid black;
+    border-radius: 18px;
+
+   
+}
+
+#zero #zero-btn1 {
+    width: 45%;
+   
+}
+
+@media screen and (max-width: 800px ){
+	body{
+        width: 38%;
+	}
+}
+
+@media screen and (max-width: 600px ){
+	body{
+        width: 50%;
+	}
+}
+
+@media screen and (max-width: 460px ){
+	body{
+        width: 74%;
+	}
+}

@@ -1,0 +1,49 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* background-image:linear-gradient(45deg ,black,white ,black) ; */
+}
+
+
+#clock-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 25vh;
+  width: 50vh;
+  border-radius: 10px;
+  border: 1px solid black;
+  font-size: 2rem;
+  font-weight: bolder;
+  background-color: black;
+  color: white;
+  min-width: 260px;
+
+}
+#timer{
+  text-align: center;
+  /* text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 10px #0073e6, 0 0 15px #0073e6, 0 0 10px #0073e6, 0 0 15px #0073e6; */
+}
+
+#timer span{
+  background-color: rgb(92, 140, 183);
+  padding: 5px;
+  width: 50px;
+}
+
+button{
+  height: 30px;
+  width: 80px;
+  background-color: white;
+  color: black;
+}
+
+button:hover{
+  background-color: black;
+  color: white;
+  border: 1.5px solid white;
+}
+  

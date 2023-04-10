@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <title>ball put on box</title>
+    <style>
+
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            justify-content: space-around;
+            
+            /* flex-wrap: wrap; */
+        }
+
+        #container{
+            border: 1px solid black;
+            height: 50vh;
+            width: 50vw;
+            display: flex;
+            /* flex-wrap: wrap; */
+            justify-content: space-around;
+            align-items: center;
+            /* text-align: center; */
+            /* flex-direction: column; */
+        }
+
+        #container{
+            display: grid;
+            grid-template-columns: auto auto auto ;
+
+        }
+
+        input, button, #display{
+           
+            width: 100px;
+            height: 30px;
+           text-align: center;
+        }
+
+
+
+       #display{
+        border: 1px solid black;
+        height: 30px;
+        width: 100px;
+        text-align: center;
+
+        }
+        
+    </style>
+</head>
+
+<body>
+    
+
+    
+<div id="container">
+    <input type="number"  placeholder="English" id="first">
+    <input type="number"  placeholder="Biology" id="second">
+    <input type="number"  placeholder="Computer" id="third">
+    <input type="number"  placeholder="Maths" id="four">
+    <input type="number"  placeholder="S St." id="five">
+    <input type="number" placeholder="Science" id="five">
+   
+    <button id="btn" type="submit">put the ball</button>
+    <div id="display"></div>
+   
+</div>
+       
+
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script>
+       
+      
+       var display = document.getElementById('display');
+        var btn = document.getElementById('btn');
+        btn.addEventListener('click', function () {
+       var number = document.querySelectorAll('input');
+            var sum = 0;
+       for(var i of number) {
+              sum += parseInt(i.value)
+       }
+        var a = parseInt(sum/number.length);
+        
+
+       display.append(a);
+
+       
+
+    });
+
+        // var display = document.getElementById('display');
+        // var btn = document.getElementById('btn');
+        // btn.addEventListener('click', function () {
+        //     var first = document.getElementById('first').value;
+        //     var second = document.getElementById('second').value;
+        //     var third = document.getElementById('third').value;
+
+        //     var average = (parseInt(first) + parseInt(second) + parseInt(third))/3;
+       
+        //     display.append(average);
+        // });
+
+     
+
+    </script>
+</body>
+
+</html>

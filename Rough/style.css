@@ -1,0 +1,37 @@
+.relative-container {
+    /* margin: 0; */
+    margin-top: 200px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    overflow: hidden;
+  }
+  
+  .relative-child {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    background-color: red;
+    height: 50px;
+    width: 50px;
+  } 
+
+  /*.absolute-container {
+    position: relative;
+    
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+  }
+  
+  .absolute-child {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+  } */

@@ -1,0 +1,12 @@
+
+#div1{
+    width : 100px;
+    height :100px;
+    background-color:red;
+   margin: 50px auto;
+   box-sizing: border-box;
+
+}
+#para{
+    text-align:center;
+}
